@@ -1,0 +1,26 @@
+{
+  "id": "calculator",
+  "name": "Calculator",
+  "summary": "The request needs a number worked out: it writes, runs and saves a script for every calculation",
+  "version": 1,
+  "consumers": [
+    "worker"
+  ],
+  "knowledge": [],
+  "takes": [],
+  "kinds": [],
+  "grants": [],
+  "crew": {
+    "tier": "member",
+    "card": "calculator",
+    "writes": true,
+    "stages": [
+      "all"
+    ],
+    "when": "the request needs a number worked out: it writes, runs and saves a script for every calculation",
+    "claims": [
+      ".galt/calc/**"
+    ],
+    "saves": true
+  }
+}

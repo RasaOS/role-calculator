@@ -1,0 +1,5 @@
+{
+  "name": "rasa-role-calculator",
+  "version": "0.1.0",
+  "description": "The Calculator role (`calculator`) as a RasaOS role module. The request needs a number worked out: it writes, runs and saves a script for every calculation"
+}
